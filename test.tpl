@@ -18,10 +18,10 @@
                 <!-- <input type="hidden" id="Cid"/> -->
               </li>
               <li id="answer" class="fs-6 fw-bold mt-3">
-                <input type="radio" name="ans" class="abc">
-                <input type="radio" name="ans" class="abc">
-                <input type="radio" name="ans" class="abc">
-                <input type="radio" name="ans" class="abc">
+                <input type="radio" name="ans" class="form-check-input abc">
+                <input type="radio" name="ans" class="form-check-input abc">
+                <input type="radio" name="ans" class="form-check-input abc">
+                <input type="radio" name="ans" class="form-check-input abc">
               </li> 
            </ul>
         </div>

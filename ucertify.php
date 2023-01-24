@@ -242,8 +242,10 @@
           let format1 = ''; 
           $.each(ans1, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format1 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format1 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format1 += '<div class="form-check">';
+              format1 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format1 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format1 += '</div>';        
           });
           $("#question").html(question1);
           $('#answer').html(format1);
@@ -262,8 +264,10 @@
           let format2 = ''; 
           $.each(ans2, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format2 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format2 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format2 += '<div class="form-check">';
+              format2 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format2 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format2 += '</div>';        
           });
           $("#question").html(question2);
           $('#answer').html(format2);
@@ -282,8 +286,10 @@
           let format3 = ''; 
           $.each(ans3, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format3 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format3 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format3 += '<div class="form-check">';
+              format3 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format3 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format3 += '</div>';        
           });
           $("#question").html(question3);
           $('#answer').html(format3);
@@ -302,8 +308,10 @@
           let format4 = ''; 
           $.each(ans4, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format4 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format4 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format4 += '<div class="form-check">';
+              format4 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format4 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format4 += '</div>';        
           });
           $("#question").html(question4);
           $('#answer').html(format4);
@@ -324,8 +332,10 @@
           let format5 = ''; 
           $.each(ans5, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format5 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format5 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format5 += '<div class="form-check">';
+              format5 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format5 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format5 += '</div>';       
           });
           $("#question").html(question5);
           $('#answer').html(format5);
@@ -344,8 +354,10 @@
           let format6 = ''; 
           $.each(ans6, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format6 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format6 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format6 += '<div class="form-check">';
+              format6 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format6 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format6 += '</div>';       
           });
           $("#question").html(question6);
           $('#answer').html(format6);
@@ -364,8 +376,10 @@
           let format7 = ''; 
           $.each(ans7, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format7 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format7 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format7 += '<div class="form-check">';
+              format7 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format7 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format7 += '</div>';       
           });
           $("#question").html(question7);
           $('#answer').html(format7);
@@ -384,8 +398,10 @@
           let format8 = ''; 
           $.each(ans8, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format8 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format8 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format8 += '<div class="form-check">';
+              format8 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format8 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format8 += '</div>';        
           });
           $("#question").html(question8);
           $('#answer').html(format8);
@@ -405,8 +421,10 @@
           let format9 = ''; 
           $.each(ans9, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format9 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format9 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format9 += '<div class="form-check">';
+              format9 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format9 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format9 += '</div>';       
           });
           $("#question").html(question9);
           $('#answer').html(format9);
@@ -425,8 +443,10 @@
           let format10 = ''; 
           $.each(ans10, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format10 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format10 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format10 += '<div class="form-check">';
+              format10 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format10 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format10 += '</div>';        
           });
           $("#question").html(question10);
           $('#answer').html(format10);
@@ -445,8 +465,10 @@
           let format11 = ''; 
           $.each(ans11, function(key, value){
               // if(value.is_correct == 1){ ...} for checking correct or not.
-              format11 += '<input type="radio" name="ans" id="'+ value.id +'">';
-              format11 += '<label for="'+ value.id +'"> '+value.answer +' </label> <br/>';       
+              format11 += '<div class="form-check">';
+              format11 += '<input type="radio" name="ans" id="'+ value.id +'" class="form-check-input abc">';
+              format11 += '<label class="form-check-label" for="'+ value.id +'"> '+value.answer +' </label> <br/>';  
+              format11 += '</div>';        
           });
           $("#question").html(question11);
           $('#answer').html(format11);

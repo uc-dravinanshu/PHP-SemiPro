@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-01-24 10:19:06
+/* Smarty version 4.3.0, created on 2023-01-24 11:24:09
   from 'C:\xampp\htdocs\PHP-Project\test.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63cfa28aa11bd4_44064944',
+  'unifunc' => 'content_63cfb1c9f25146_33718995',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '05f3755aee0a9de6254c63d752fee48ae4b70019' => 
     array (
       0 => 'C:\\xampp\\htdocs\\PHP-Project\\test.tpl',
-      1 => 1674549856,
+      1 => 1674555846,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./inc/script.tpl' => 1,
   ),
 ),false)) {
-function content_63cfa28aa11bd4_44064944 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63cfb1c9f25146_33718995 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\PHP-Project\\smarty\\libs\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 ?>
 <!DOCTYPE html>
@@ -49,10 +49,10 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\PHP-Proje
                 <!-- <input type="hidden" id="Cid"/> -->
               </li>
               <li id="answer" class="fs-6 fw-bold mt-3">
-                <input type="radio" name="ans" class="abc">
-                <input type="radio" name="ans" class="abc">
-                <input type="radio" name="ans" class="abc">
-                <input type="radio" name="ans" class="abc">
+                <input type="radio" name="ans" class="form-check-input abc">
+                <input type="radio" name="ans" class="form-check-input abc">
+                <input type="radio" name="ans" class="form-check-input abc">
+                <input type="radio" name="ans" class="form-check-input abc">
               </li> 
            </ul>
         </div>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-01-23 05:52:55
+/* Smarty version 4.3.0, created on 2023-01-24 11:15:03
   from 'C:\xampp\htdocs\PHP-Project\result.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63ce12a7ad91a3_97570301',
+  'unifunc' => 'content_63cfafa7a76824_17511224',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6526b92aab8176fa25aebc35b015526c4abd499d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\PHP-Project\\result.tpl',
-      1 => 1674449569,
+      1 => 1674553363,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./inc/script.tpl' => 1,
   ),
 ),false)) {
-function content_63ce12a7ad91a3_97570301 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63cfafa7a76824_17511224 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +45,7 @@ function content_63ce12a7ad91a3_97570301 (Smarty_Internal_Template $_smarty_tpl)
                     <table class="table table-striped text-center">
                         <thead>
                           <tr>
-                            <th scope="col">Total Question</th>
+                            <th scope="col">Total Question:</th>
                             <th scope="col">Attempt Question:</th>
                             <th scope="col">Unattemept Question</th>
                             <th scope="col">Correct Question</th>
