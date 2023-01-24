@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-01-24 11:24:09
+/* Smarty version 4.3.0, created on 2023-01-24 11:33:54
   from 'C:\xampp\htdocs\PHP-Project\test.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63cfb1c9f25146_33718995',
+  'unifunc' => 'content_63cfb412ea7dd9_63137262',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '05f3755aee0a9de6254c63d752fee48ae4b70019' => 
     array (
       0 => 'C:\\xampp\\htdocs\\PHP-Project\\test.tpl',
-      1 => 1674555846,
+      1 => 1674556431,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./inc/script.tpl' => 1,
   ),
 ),false)) {
-function content_63cfb1c9f25146_33718995 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63cfb412ea7dd9_63137262 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\PHP-Project\\smarty\\libs\\plugins\\function.counter.php','function'=>'smarty_function_counter',),));
 ?>
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\PHP-Proje
 <!-------------Modal for list-------------->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">All Questions</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body d-flex justify-content-between">
